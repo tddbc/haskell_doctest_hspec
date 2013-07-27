@@ -5,15 +5,17 @@
 ```sh
 % cabal install --enable-test --only-dependencies
 
-# or
-
-% cabal-dev install --enable-test
-```
-
-```sh
 % cabal configure --enable-tests
 % cabal build
 % cabal test
+
+# or
+
+% cabal-dev install --enable-test
+
+% cabal-dev configure --enable-tests
+% cabal-dev build
+% cabal-dev test
 ```
 
 ## References
