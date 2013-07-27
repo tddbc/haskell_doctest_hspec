@@ -56,7 +56,6 @@ library
 
 Test-Suite doctest
   Type:              exitcode-stdio-1.0
-  Default-Language:  Haskell2010
   Hs-Source-Dirs:    test
   Ghc-Options:       -threaded -Wall
   Main-Is:           doctests.hs
@@ -67,7 +66,6 @@ Test-Suite doctest
 
 Test-Suite spec
   Type:              exitcode-stdio-1.0
-  Default-Language:  Haskell2010
   Hs-Source-Dirs:    src, test
   Ghc-Options:       -Wall
   Main-Is:           Spec.hs
